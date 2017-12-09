@@ -20,12 +20,11 @@ th {
     color: white;
 }
 .pagination {
-    display: inline-block;
+    background-color: green;
 }
 
 .pagination a {
     color: black;
-    float: left;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -57,7 +56,7 @@ $page = empty($_GET['page']) ? 1 : $_GET['page'];
     echo "</td></tr>";
  }
  echo "</table>";
-?>
+?><br><br><br>
 <div align="center" class="pagination" >
 <?php for($j=1;$j<=($num/10);$j++){
     echo "<a href='?&page=".$j."'>".$j."</a>";
