@@ -19,14 +19,12 @@ th {
     background-color: #4CAF50;
     color: white;
 }
-.pagination {
-    background-color: green;
-}
 
 .pagination a {
     color: black;
     padding: 8px 16px;
     text-decoration: none;
+    background-color: green;
 }
 
 .pagination a.active {
