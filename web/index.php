@@ -24,7 +24,7 @@ th {
     color: black;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: green;
+    background-color: #b1d6c5;
 }
 
 .pagination a.active {
